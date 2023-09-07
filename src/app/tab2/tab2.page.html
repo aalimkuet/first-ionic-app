@@ -1,17 +1,42 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 2
-    </ion-title>
+  <ion-toolbar color="primary">
+    <ion-title>{{title}}</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
+      <ion-title size="large">{{title}}</ion-title>
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+  <ion-content color="light">
+    <!-- <ion-list [inset]="true" style="border-radius: 20px; border: 1px solid rosybrown;">
+      <ion-item>
+        <ion-label>Pokémon Yellow</ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-label>Mega Man X</ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-label>The Legend of Zelda</ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-label>Pac-Man</ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-label>Super Mario World</ion-label>
+      </ion-item>
+    </ion-list> -->
+    <ion-icon
+      name="camera"
+      style="
+        font-size: 250px;
+        color: rgb(63, 47, 5);
+        margin-top: 30%;
+        margin-left: 18%;
+      "
+    ></ion-icon>
+  </ion-content>
 </ion-content>
